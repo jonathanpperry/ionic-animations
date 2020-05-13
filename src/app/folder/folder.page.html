@@ -1,0 +1,13 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ folder }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button (click)="toggleAnimation()" expand="full">Toggle</ion-button>
+  <div #square class="square"></div>
+</ion-content>

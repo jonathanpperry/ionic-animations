@@ -1,0 +1,7 @@
+{
+  "name": "jonnyRamenAnimations",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
